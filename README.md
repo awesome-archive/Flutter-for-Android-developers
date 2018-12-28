@@ -4,6 +4,31 @@
 
 The tutorial assumes that you are at least familiar with Android development and know what scary words like [View](https://developer.android.com/reference/android/view/View), [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup), [Java](https://www.oracle.com/technetwork/java/javase/overview/index.html), [Kotlin](https://kotlinlang.org/) mean.
 
+# Table of contents
+* [Overview of Flutter]()
+* [Installing Flutter]()
+* [Working with an editor]()
+* [Learning Dart]()
+* [Flutter introductory resources]()
+* [Architecture and state management]()
+* [Navigation & routing]()
+* [Android functionality and corresponding plugins]()
+* [Network requests and Serialization]()
+* [Reactive/Rx]()
+* [Android views and their corresponding Flutter widgets]()
+* [Animation]()
+* [Plugins/Libraries]()
+* [Local notifications]()
+* [Firebase]()
+* [Communicating with native platform]()
+* [Background processing]()
+* [Testing and profiling]()
+* [Flavors and deployment]()
+* [Samples and tutorials]()
+* [Community]()
+
+
+
 ## Overview of Flutter
 
 * [FAQ](https://flutter.io/docs/resources/faq)
@@ -15,6 +40,12 @@ The tutorial assumes that you are at least familiar with Android development and
 
 * [Configuring Android Studio](https://flutter.io/docs/get-started/editor)
 
+## Working with an editor
+* [Android Studio/Intellij](https://flutter.io/docs/development/tools/android-studio)
+* [Visual Studio Code](https://flutter.io/docs/development/tools/vs-code)
+
+* [Layout inspector in Flutter](https://flutter.io/docs/development/tools/inspector)
+
 ## Learning Dart
 * [Overview: The Dart Language](https://www.dartlang.org/guides/language)
 
@@ -23,15 +54,6 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Dart for Java developers Codelab](https://codelabs.developers.google.com/codelabs/from-java-to-dart/#0)
 
 * [Dart Codelabs](https://www.dartlang.org/codelabs)
-
-
-
-## Working with an editor
-
-* [Android Studio/Intellij](https://flutter.io/docs/development/tools/android-studio)
-* [Visual Studio Code](https://flutter.io/docs/development/tools/vs-code)
-
-* [Layout inspector in Flutter](https://flutter.io/docs/development/tools/inspector)
 
 ## Flutter introductory resources
 * [Official Flutter docs](https://flutter.io/docs)
@@ -83,6 +105,9 @@ No, there's no Retrofit or Gson/Moshi in Flutter.
 * [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data)
 
 * [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
+
+## Reactive/Rx
+Dart is a reactive language out of box use either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
 
 ## Android views and their correspoding Flutter widgets
 
