@@ -1,6 +1,6 @@
-# Flutter for Android developers
-
 <p align="center"><img src="https://raw.githubusercontent.com/m3sv/Flutter-introduction-for-Android-developers/master/android_flutter.png" width="480"></p> 
+
+# Flutter for Android developers
 
 The tutorial assumes that you are at least familiar with Android development and know what scary words like [View](https://developer.android.com/reference/android/view/View), [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup), [Java](https://www.oracle.com/technetwork/java/javase/overview/index.html), [Kotlin](https://kotlinlang.org/) mean.
 
