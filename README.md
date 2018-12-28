@@ -20,7 +20,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Activity/Fragment?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#activityfragment)
 * [Lifecycle?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#lifecycle)
 * [Orientation change?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#orientation-change)
-* [Declarative vs Imperative]()
+* [Declarative vs Imperative](https://github.com/m3sv/Flutter-introduction-for-Android-developers#declarative-vs-imperative)
 * [Android views and their corresponding Flutter widgets](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-views-and-their-correspoding-flutter-widgets)
 * [Hint on an EditText](https://github.com/m3sv/Flutter-introduction-for-Android-developers#hint-on-an-edittext)
 * [Custom Views/Canvas drawing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#custom-viewscanvas-drawing)
