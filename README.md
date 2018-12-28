@@ -34,6 +34,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Firebase](https://github.com/m3sv/Flutter-introduction-for-Android-developers#firebase)
 * [Facebook](https://github.com/m3sv/Flutter-introduction-for-Android-developers#facebook)
 * [Communicating with native platform](https://github.com/m3sv/Flutter-introduction-for-Android-developers#communicating-with-native-platform)
+* [NDK]()
 * [Background processing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#background-processing)
 * [Testing and profiling](https://github.com/m3sv/Flutter-introduction-for-Android-developers#testing-and-profiling)
 * [Flavors and deployment](https://github.com/m3sv/Flutter-introduction-for-Android-developers#flavors-and-deployment)
@@ -300,6 +301,9 @@ To Log in with Facebook, use [flutter_facebook_login plugin](https://pub.dartlan
 
 * [Writing custom platform-specific code](https://flutter.io/docs/development/platform-integration/platform-channels)
 * [Add Flutter to existing application](https://github.com/flutter/flutter/wiki/Add-Flutter-to-existing-apps)
+
+## NDK
+[How do I use the NDK in my Flutter application?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-use-the-ndk-in-my-flutter-application)
 
 ## Background processing
 * [Offloading tasks to a background thread](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-you-move-work-to-a-background-thread)
