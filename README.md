@@ -11,7 +11,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Learning Dart](https://github.com/m3sv/Flutter-introduction-for-Android-developers#learning-dart)
 * [Flutter introductory resources](https://github.com/m3sv/Flutter-introduction-for-Android-developers#flutter-introductory-resources)
 * [Architecture and state management](https://github.com/m3sv/Flutter-introduction-for-Android-developers#architecture-and-state-management)
-* [Dependency Injection]()
+* [Dependency Injection](https://github.com/m3sv/Flutter-introduction-for-Android-developers#dependency-injection)
 * [Navigation & routing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#navigation--routing)
 * [Network requests and Serialization](https://github.com/m3sv/Flutter-introduction-for-Android-developers#network-requests-and-serialization)
 * [Reactive/Rx](https://github.com/m3sv/Flutter-introduction-for-Android-developers#reactiverx)
