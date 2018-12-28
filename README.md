@@ -11,10 +11,11 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Learning Dart](https://github.com/m3sv/Flutter-introduction-for-Android-developers#learning-dart)
 * [Flutter introductory resources](https://github.com/m3sv/Flutter-introduction-for-Android-developers#flutter-introductory-resources)
 * [Architecture and state management](https://github.com/m3sv/Flutter-introduction-for-Android-developers#architecture-and-state-management)
+* [Dependency Injection]()
 * [Navigation & routing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#navigation--routing)
-* [Android functionality and corresponding plugins](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-functionality-and-corresponding-plugins)
 * [Network requests and Serialization](https://github.com/m3sv/Flutter-introduction-for-Android-developers#network-requests-and-serialization)
 * [Reactive/Rx](https://github.com/m3sv/Flutter-introduction-for-Android-developers#reactiverx)
+* [Android functionality and corresponding plugins](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-functionality-and-corresponding-plugins)
 * [Android views and their corresponding Flutter widgets](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-views-and-their-correspoding-flutter-widgets)
 * [Animation](https://github.com/m3sv/Flutter-introduction-for-Android-developers#animations)
 * [Plugins/Libraries](https://github.com/m3sv/Flutter-introduction-for-Android-developers#pluginslibraries)
@@ -74,11 +75,26 @@ Basically Flutter world is split between [BLoC/Rx](https://flutter.io/docs/devel
 
 * [scoped_model](https://github.com/brianegan/scoped_model)
 
+## Dependency injection
+
+While there's no Dagger 2 in Flutter, there's [inject.dart](https://github.com/google/inject.dart).
+
 
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
 
 [Official documentation on navigation](https://flutter.io/docs/development/ui/navigation)
+
+## Network requests and Serialization
+
+No, there's no Retrofit or Gson/Moshi in Flutter.
+
+* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data)
+
+* [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
+
+## Reactive/Rx
+Dart is a reactive language out of the box, you can either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
 
 ## Android functionality and corresponding plugins
 
@@ -103,18 +119,6 @@ Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class
 [Launch URL](https://developer.android.com/guide/components/intents-common) | [url_launcher](https://github.com/flutter/plugins/tree/master/packages/url_launcher)
 [ExoPlayer/MediaPlayer](https://github.com/google/ExoPlayer) |  [video_player](https://github.com/flutter/plugins/tree/master/packages/video_player)
 [WebView](https://developer.android.com/reference/android/webkit/WebView) | [webview_flutter](https://github.com/flutter/plugins/tree/master/packages/webview_flutter)
-
-
-## Network requests and Serialization
-
-No, there's no Retrofit or Gson/Moshi in Flutter.
-
-* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data)
-
-* [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
-
-## Reactive/Rx
-Dart is a reactive language out of the box, you can either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
 
 ## Android views and their correspoding Flutter widgets
 
