@@ -34,7 +34,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Firebase](https://github.com/m3sv/Flutter-introduction-for-Android-developers#firebase)
 * [Facebook](https://github.com/m3sv/Flutter-introduction-for-Android-developers#facebook)
 * [Communicating with native platform](https://github.com/m3sv/Flutter-introduction-for-Android-developers#communicating-with-native-platform)
-* [NDK]()
+* [NDK](https://github.com/m3sv/Flutter-introduction-for-Android-developers#ndk)
 * [Background processing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#background-processing)
 * [Testing and profiling](https://github.com/m3sv/Flutter-introduction-for-Android-developers#testing-and-profiling)
 * [Flavors and deployment](https://github.com/m3sv/Flutter-introduction-for-Android-developers#flavors-and-deployment)
