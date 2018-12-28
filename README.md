@@ -20,6 +20,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Activity/Fragment?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#activityfragment)
 * [Lifecycle?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#lifecycle)
 * [Orientation change?](https://github.com/m3sv/Flutter-introduction-for-Android-developers#orientation-change)
+* [Declarative vs Imperative]()
 * [Android views and their corresponding Flutter widgets](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-views-and-their-correspoding-flutter-widgets)
 * [Hint on an EditText](https://github.com/m3sv/Flutter-introduction-for-Android-developers#hint-on-an-edittext)
 * [Custom Views/Canvas drawing](https://github.com/m3sv/Flutter-introduction-for-Android-developers#custom-viewscanvas-drawing)
@@ -146,7 +147,6 @@ Dart is a reactive language out of the box, you can either use Dart's [Streams](
 [ExoPlayer/MediaPlayer](https://github.com/google/ExoPlayer) |  [video_player](https://github.com/flutter/plugins/tree/master/packages/video_player)
 [WebView](https://developer.android.com/reference/android/webkit/WebView) | [webview_flutter](https://github.com/flutter/plugins/tree/master/packages/webview_flutter)
 
-
 ## Activity/Fragment?
 Both activities and fragments are represented as a Widget in Flutter.
 
@@ -159,6 +159,24 @@ Read more: [What are the equivalent of activities and fragments in Flutter?](htt
 ## Orientation change?
 [How do I handle landscape transitions in Flutter?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-handle-landscape-transitions-in-flutter)
 
+## Declarative vs Imperative
+> In the imperative style, you would typically go to ViewB’s owner and retrieve the instance b using selectors or with findViewById or similar, and invoke mutations on it (and implicitly invalidate it). For example:
+
+    // Imperative style
+    b.setColor(red)
+    b.clearChildren()
+    ViewC c3 = new ViewC(...)
+    b.add(c3)
+
+> In the declarative style, view configurations (such as Flutter’s Widgets) are immutable and are only lightweight “blueprints”. To change the UI, a Widget triggers a rebuild on itself (most commonly by calling setState() on StatefulWidgets in Flutter) and constructs a new Widget subtree.
+
+    // Declarative style
+    return ViewB(
+      color: red,
+      child: ViewC(...),
+    )
+
+[Why Flutter uses declarative UI](https://flutter.io/docs/get-started/flutter-for/declarative#why-a-declarative-ui)
 
 ## Android views and their correspoding Flutter widgets
 
