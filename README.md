@@ -175,6 +175,8 @@ The most common Android views and their corresponding Flutter widgets are here:
 
 * [Animations tutorial](https://flutter.io/docs/development/ui/animations/tutorial)
 
+* [Flare](https://www.2dimensions.com/about-flare)
+
 ## Plugins/Libraries 
 [Packages](https://pub.dartlang.org/flutter) allow you to use Flutter packages or access underlying platform features in a form of a library.
 
@@ -234,6 +236,8 @@ For local notifications you would have to rely on a 3rd party plugin.
 * [Flutter on Medium](https://medium.com/flutter-io)
 
 * [Trending on Github](https://github.com/trending/dart)
+
+* [History of Everything application](https://github.com/2d-inc/HistoryOfEverything)
 
 
 ## Community 
