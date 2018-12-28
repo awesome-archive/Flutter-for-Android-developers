@@ -114,7 +114,7 @@ No, there's no Retrofit or Gson/Moshi in Flutter.
 * [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
 
 ## Reactive/Rx
-Dart is a reactive language out of box use either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
+Dart is a reactive language out of the box, you can either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
 
 ## Android views and their correspoding Flutter widgets
 
