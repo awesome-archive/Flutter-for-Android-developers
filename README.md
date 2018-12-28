@@ -17,7 +17,8 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Reactive/Rx](https://github.com/m3sv/Flutter-introduction-for-Android-developers#reactiverx)
 * [Android functionality and corresponding plugins](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-functionality-and-corresponding-plugins)
 * [Android views and their corresponding Flutter widgets](https://github.com/m3sv/Flutter-introduction-for-Android-developers#android-views-and-their-correspoding-flutter-widgets)
-* [Animation](https://github.com/m3sv/Flutter-introduction-for-Android-developers#animations)
+* [Custom Views/Canvas drawing]()
+* [Animations](https://github.com/m3sv/Flutter-introduction-for-Android-developers#animations)
 * [Plugins/Libraries](https://github.com/m3sv/Flutter-introduction-for-Android-developers#pluginslibraries)
 * [Local notifications](https://github.com/m3sv/Flutter-introduction-for-Android-developers#local-notifications)
 * [Firebase](https://github.com/m3sv/Flutter-introduction-for-Android-developers#firebase)
@@ -83,15 +84,30 @@ While there's no Dagger 2 in Flutter, there's [inject.dart](https://github.com/g
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
 
-[Official documentation on navigation](https://flutter.io/docs/development/ui/navigation)
+* [Official documentation on navigation](https://flutter.io/docs/development/ui/navigation)
+
+* [Flutter Navigation for Android developers](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-an-intent-in-flutter)
+
+## Handling incoming intents
+
+[Handling intents from external applications](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-handle-incoming-intents-from-external-applications-in-flutter)
 
 ## Network requests and Serialization
 
 No, there's no Retrofit or Gson/Moshi in Flutter.
 
-* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data)
+* [OkHttp equivalent in Flutter](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-okhttp-on-flutter)
+
+* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data), 
 
 * [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
+
+## Persistence
+
+* [Shared Preferences](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-access-shared-preferences)
+
+* To interact with SQLite you use [sqflite plugin](https://pub.dartlang.org/packages/sqflite)
+
 
 ## Reactive/Rx
 Dart is a reactive language out of the box, you can either use Dart's [Streams](https://www.dartlang.org/tutorials/language/streams) or [RxDart](https://github.com/ReactiveX/rxdart) if you're familiar with ReactiveX.
@@ -119,6 +135,20 @@ Dart is a reactive language out of the box, you can either use Dart's [Streams](
 [Launch URL](https://developer.android.com/guide/components/intents-common) | [url_launcher](https://github.com/flutter/plugins/tree/master/packages/url_launcher)
 [ExoPlayer/MediaPlayer](https://github.com/google/ExoPlayer) |  [video_player](https://github.com/flutter/plugins/tree/master/packages/video_player)
 [WebView](https://developer.android.com/reference/android/webkit/WebView) | [webview_flutter](https://github.com/flutter/plugins/tree/master/packages/webview_flutter)
+
+
+## Activity/Fragment?
+Both activities and fragments are represented as a Widget in Flutter.
+
+Read more: [What are the equivalent of activities and fragments in Flutter?](https://flutter.io/docs/get-started/flutter-for/android-devs#what-are-the-equivalent-of-activities-and-fragments-in-flutter)
+
+## Lifecycle?
+
+[How do I listen to Android activity lifecycle events?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-listen-to-android-activity-lifecycle-events)
+
+## Orientation change?
+[How do I handle landscape transitions in Flutter?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-handle-landscape-transitions-in-flutter)
+
 
 ## Android views and their correspoding Flutter widgets
 
@@ -173,6 +203,26 @@ The most common Android views and their corresponding Flutter widgets are here:
 [TextInputLayout](https://developer.android.com/reference/com/google/android/material/textfield/package-summary) | [TextFormFiled](https://docs.flutter.io/flutter/material/TextFormField-class.html)
 [SnackBar](https://developer.android.com/reference/android/support/design/widget/Snackbar) | [SnackBar](https://docs.flutter.io/flutter/material/SnackBar-class.html)
 
+## Hint on an EditText
+
+To add a hint to an EditText([TextField](https://docs.flutter.io/flutter/material/TextField-class.html)) you add [InputDecoration](https://docs.flutter.io/flutter/material/InputDecoration-class.html) to it:
+
+    body: Center(
+      child: TextField(
+        decoration: InputDecoration(hintText: "This is a hint"),
+      )
+    )
+
+## Custom Views/Canvas drawing
+Flutter has similar to Android [Canvas API](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-use-a-canvas-to-drawpaint).
+
+To create [custom widgets](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-build-custom-widgets) you compose smaller widgets.
+
+## Gesture and click listeners
+* [How to add onClick listener](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-add-an-onclick-listener-to-a-widget-in-flutter)
+* [Gesture detection](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-handle-other-gestures-on-widgets)
+
+
 ## Animations
 
 * [Introduction to animations in Flutter](https://flutter.io/docs/development/ui/animations)
@@ -180,6 +230,19 @@ The most common Android views and their corresponding Flutter widgets are here:
 * [Animations tutorial](https://flutter.io/docs/development/ui/animations/tutorial)
 
 * [Flare](https://www.2dimensions.com/about-flare)
+
+## Resource management
+* [Storing images](https://flutter.io/docs/get-started/flutter-for/android-devs#where-do-i-store-my-resolution-dependent-image-files)
+* [Storing strings](https://flutter.io/docs/get-started/flutter-for/android-devs#where-do-i-store-strings-how-do-i-handle-localization)
+* [Internationalization and localization](https://pub.dartlang.org/packages/intl)
+
+## Theming
+
+[How do I theme my app?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-theme-my-app)
+
+
+## Gradle 
+Flutter uses Dart's own build system, and the Pub package manager. You can read more about [here](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-a-gradle-file-how-do-i-add-dependencies).
 
 ## Plugins/Libraries 
 [Packages](https://pub.dartlang.org/flutter) allow you to use Flutter packages or access underlying platform features in a form of a library.
@@ -201,14 +264,17 @@ For local notifications you would have to rely on a 3rd party plugin.
 
 * [Getting started with Firebase in Flutter app](https://firebase.google.com/docs/flutter/setup)
 
+## Facebook
+
+To Log in with Facebook, use [flutter_facebook_login plugin](https://pub.dartlang.org/packages/flutter_facebook_login).
+
 ## Communicating with native platform
 
 * [Writing custom platform-specific code](https://flutter.io/docs/development/platform-integration/platform-channels)
 * [Add Flutter to existing application](https://github.com/flutter/flutter/wiki/Add-Flutter-to-existing-apps)
 
-
 ## Background processing
-
+* [Offloading tasks to a background thread](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-you-move-work-to-a-background-thread)
 * [Background processes](https://flutter.io/docs/development/packages-and-plugins/background-processes)
 * [Executing Dart in the Background with Flutter Plugins and Geofencing](https://medium.com/flutter-io/executing-dart-in-the-background-with-flutter-plugins-and-geofencing-2b3e40a1a124)
 
