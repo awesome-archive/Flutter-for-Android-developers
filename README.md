@@ -66,7 +66,14 @@ The tutorial assumes that you are at least familiar with Android development and
 ## Architecture and state management
 
 Basically Flutter world is split between [BLoC/Rx](https://flutter.io/docs/development/data-and-backend/state-mgmt#bloc--rx)(kind of like [MVVM](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b)) and [Redux](https://flutter.io/docs/development/data-and-backend/state-mgmt#redux).
-[Official documentation about state management.](https://flutter.io/docs/development/data-and-backend/state-mgmt) 
+
+* [Official documentation about state management.](https://flutter.io/docs/development/data-and-backend/state-mgmt) 
+* [Flutter architecture samples](http://fluttersamples.com/)
+
+* [BLoC](https://github.com/felangel/bloc)
+
+* [scoped_model](https://github.com/brianegan/scoped_model)
+
 
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
