@@ -25,6 +25,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Hint on an EditText](#hint-on-an-edittext)
 * [Custom Views/Canvas drawing](#custom-viewscanvas-drawing)
 * [Gesture and click listeners](#gesture-and-click-listeners)
+* [Glide/Picasso/Fresco(Image loading)?](#glidepicassofrescoimage-loading)
 * [Animations](#animations)
 * [Resource management](#resource-management)
 * [Theming](#theming)
@@ -40,8 +41,6 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Flavors and deployment](#flavors-and-deployment)
 * [Samples and tutorials](#samples-and-tutorials)
 * [Community](#community)
-
-
 
 ## Overview of Flutter
 
