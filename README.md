@@ -129,7 +129,7 @@ Dart is a reactive language out of the box, you can either use Dart's [Streams](
 | Android  | Flutter  | 
 |:--------:|:--------:|
 [AlarmManager](https://developer.android.com/reference/android/app/AlarmManager) | [android_alarm_manager](https://github.com/flutter/plugins/tree/master/packages/android_alarm_manager)
-[Intent](https://developer.android.com/guide/components/intents-filters) | [android_intent](https://developer.android.com/guide/components/intents-filters)
+[Intent](https://developer.android.com/guide/components/intents-filters) | [android_intent](https://github.com/flutter/plugins/tree/master/packages/android_intent)
 [Battery](https://developer.android.com/training/monitoring-device-state/battery-monitoring) | [battery](https://github.com/flutter/plugins/tree/master/packages/battery)
 [Camera](https://developer.android.com/guide/topics/media/camera) | [camera](https://github.com/flutter/plugins/tree/master/packages/camera)
 [Network](https://developer.android.com/training/basics/network-ops/managing) | [connectivity](https://github.com/flutter/plugins/tree/master/packages/connectivity)
