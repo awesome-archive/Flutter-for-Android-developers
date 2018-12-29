@@ -251,6 +251,20 @@ To create [custom widgets](https://flutter.io/docs/get-started/flutter-for/andro
 * [How to add onClick listener](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-add-an-onclick-listener-to-a-widget-in-flutter)
 * [Gesture detection](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-handle-other-gestures-on-widgets)
 
+## Glide/Picasso/Fresco(Image loading)?
+
+Flutter is able to [load images](https://flutter.io/docs/cookbook/images/network-image) from URL out of the box, all you have to do is use the [Image.network](https://docs.flutter.io/flutter/widgets/Image/Image.network.html) constructor, like this: 
+
+    Image.network(
+      'https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/images/lake.jpg',
+    )
+
+It also supports gifs!
+
+Unfortunately, Image.network [does not support](https://flutter.io/docs/cookbook/images/network-image#placeholders-and-caching) placeholders and/or caching. To achieve those, please see the following recipes:
+* [Fade in images with a placeholder](https://flutter.io/docs/cookbook/images/fading-in-images)
+* [Working with cached images](https://flutter.io/docs/cookbook/images/cached-images)
+
 
 ## Animations
 
