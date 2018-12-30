@@ -21,7 +21,7 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Lifecycle?](#lifecycle)
 * [Orientation change?](#orientation-change)
 * [Declarative vs Imperative](#declarative-vs-imperative)
-* [Android views and their corresponding Flutter widgets](#android-views-and-their-correspoding-flutter-widgets)
+* [Android views and their corresponding Flutter widgets](#android-views-and-their-corresponding-flutter-widgets)
 * [Hint on an EditText](#hint-on-an-edittext)
 * [Custom Views/Canvas drawing](#custom-viewscanvas-drawing)
 * [Gesture and click listeners](#gesture-and-click-listeners)
@@ -74,7 +74,7 @@ The tutorial assumes that you are at least familiar with Android development and
 
 * [Google Codelab](https://codelabs.developers.google.com/codelabs/flutter/#0)
 
-* [Tensor Programming](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) excelent programming videos, regularly posts Flutter tutorials
+* [Tensor Programming](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) excellent programming videos, regularly posts Flutter tutorials
 
 ## Architecture and state management
 
@@ -178,7 +178,7 @@ Read more: [What are the equivalent of activities and fragments in Flutter?](htt
 
 [Why Flutter uses declarative UI](https://flutter.io/docs/get-started/flutter-for/declarative#why-a-declarative-ui)
 
-## Android views and their correspoding Flutter widgets
+## Android views and their corresponding Flutter widgets
 
 Flutter contains much more widgets than Android SDK, you can discover them [here](https://flutter.io/docs/development/ui/widgets) and in [Widget index](https://flutter.io/docs/reference/widgets).
 
@@ -336,7 +336,7 @@ To Log in with Facebook, use [flutter_facebook_login plugin](https://pub.dartlan
 
 * [Preparing for release](https://flutter.io/docs/deployment/android)
 
-* [Fastlane continious delivery](https://flutter.io/docs/deployment/fastlane-cd)
+* [Fastlane continuous delivery](https://flutter.io/docs/deployment/fastlane-cd)
 
 ## Samples and tutorials 
 
