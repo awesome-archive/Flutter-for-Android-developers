@@ -204,7 +204,6 @@ The most common Android views and their corresponding Flutter widgets are here:
 |[ListView](https://developer.android.com/reference/android/widget/ListView) | [ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html)
 |[NumberPicker](https://developer.android.com/reference/android/widget/NumberPicker) | [Custom Widget](https://pub.dartlang.org/packages/numberpicker)
 |[PopupMenu](https://developer.android.com/reference/android/widget/PopupMenu)| [PopupMenuButton](https://docs.flutter.io/flutter/material/PopupMenuButton-class.html)
-|[PopupView](https://developer.android.com/reference/android/widget/PopupWindow) | [PopupMenuButton](https://docs.flutter.io/flutter/material/PopupMenuButton-class.html)
 |[ProgressBar](https://developer.android.com/reference/android/widget/ProgressBar) | [LinearProgressIndicator](https://docs.flutter.io/flutter/material/LinearProgressIndicator-class.html)
 |[RadioButton](https://docs.flutter.io/flutter/material/Radio-class.html)/[RadioGroup](https://developer.android.com/reference/android/widget/RadioGroup) | [Radio](https://docs.flutter.io/flutter/material/Radio-class.html)
 |[RatingBar](https://developer.android.com/reference/android/widget/RatingBar) | [How to create rating bar](https://stackoverflow.com/questions/46637566/how-to-create-rating-star-bar-properly)
