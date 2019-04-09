@@ -45,35 +45,27 @@ The tutorial assumes that you are at least familiar with Android development and
 ## Overview of Flutter
 
 * [FAQ](https://flutter.io/docs/resources/faq)
-
 * [Technical overview](https://flutter.io/docs/resources/technical-overview)
 
 ## Installing Flutter
 * [Installing Flutter SDK](https://flutter.io/docs/get-started/install)
-
 * [Configuring Android Studio](https://flutter.io/docs/get-started/editor)
 
 ## Working with an editor
 * [Android Studio/Intellij](https://flutter.io/docs/development/tools/android-studio)
 * [Visual Studio Code](https://flutter.io/docs/development/tools/vs-code)
-
 * [Layout inspector in Flutter](https://flutter.io/docs/development/tools/inspector)
 
 ## Learning Dart
 * [Overview: The Dart Language](https://www.dartlang.org/guides/language)
-
 * [Bootstrap into Dart](https://flutter.io/docs/resources/bootstrap-into-dart)
-
 * [Dart for Java developers Codelab](https://codelabs.developers.google.com/codelabs/from-java-to-dart/#0)
-
 * [Dart Codelabs](https://www.dartlang.org/codelabs)
 
 ## Flutter introductory resources
 * [Official Flutter docs](https://flutter.io/docs)
 * [Flutter for Android developers introductory](https://flutter.io/docs/get-started/flutter-for/android-devs)
-
 * [Google Codelab](https://codelabs.developers.google.com/codelabs/flutter/#0)
-
 * [Tensor Programming](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) excellent programming videos, regularly posts Flutter tutorials
 
 ## Architecture and state management
@@ -82,9 +74,7 @@ Basically Flutter world is split between [BLoC/Rx](https://flutter.io/docs/devel
 
 * [Official documentation about state management.](https://flutter.io/docs/development/data-and-backend/state-mgmt) 
 * [Flutter architecture samples](http://fluttersamples.com/)
-
 * [BLoC](https://github.com/felangel/bloc)
-
 * [scoped_model](https://github.com/brianegan/scoped_model)
 
 ## Dependency injection
@@ -96,7 +86,6 @@ While there's no Dagger 2 in Flutter, there's [inject.dart](https://github.com/g
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
 
 * [Official documentation on navigation](https://flutter.io/docs/development/ui/navigation)
-
 * [Flutter Navigation for Android developers](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-an-intent-in-flutter)
 
 ## Handling incoming intents
@@ -107,16 +96,13 @@ Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class
 
 No, there's no Retrofit or Gson/Moshi in Flutter.
 
-* [OkHttp equivalent in Flutter](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-okhttp-on-flutter)
-
-* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data), 
-
+* [OkHttp/Retrofit](https://github.com/flutterchina/dio)
+* [Fetch data from Internet](https://flutter.io/docs/cookbook/networking/fetch-data)
 * [JSON serialization](https://flutter.io/docs/development/data-and-backend/json)
 
 ## Persistence
 
 * [Shared Preferences](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-access-shared-preferences)
-
 * To interact with SQLite you use [sqflite plugin](https://pub.dartlang.org/packages/sqflite)
 
 
@@ -183,7 +169,6 @@ Read more: [What are the equivalent of activities and fragments in Flutter?](htt
 Flutter contains much more widgets than Android SDK, you can discover them [here](https://flutter.io/docs/development/ui/widgets) and in [Widget index](https://flutter.io/docs/reference/widgets).
 
 The most common Android views and their corresponding Flutter widgets are here:
-
 
 | Android  | Flutter  | 
 |:--------:|:--------:|
@@ -267,9 +252,7 @@ Unfortunately, Image.network [does not support](https://flutter.io/docs/cookbook
 ## Animations
 
 * [Introduction to animations in Flutter](https://flutter.io/docs/development/ui/animations)
-
 * [Animations tutorial](https://flutter.io/docs/development/ui/animations/tutorial)
-
 * [Flare](https://www.2dimensions.com/about-flare)
 
 ## Resource management
@@ -280,7 +263,6 @@ Unfortunately, Image.network [does not support](https://flutter.io/docs/cookbook
 ## Theming
 
 [How do I theme my app?](https://flutter.io/docs/get-started/flutter-for/android-devs#how-do-i-theme-my-app)
-
 
 ## Gradle 
 Flutter uses Dart's own build system, and the Pub package manager. You can read more about [here](https://flutter.io/docs/get-started/flutter-for/android-devs#what-is-the-equivalent-of-a-gradle-file-how-do-i-add-dependencies).
@@ -296,13 +278,11 @@ Flutter uses Dart's own build system, and the Pub package manager. You can read 
 For local notifications you would have to rely on a 3rd party plugin.
 
 * [flutter_local_notifications](https://github.com/MaikuB/flutter_local_notifications)
-
 * [local_notifications](https://github.com/mitchhymel/local_notifications)
 
 ## Firebase
 
 * [Firebase entry in Flutter docs](https://flutter.io/docs/development/data-and-backend/firebase)
-
 * [Getting started with Firebase in Flutter app](https://firebase.google.com/docs/flutter/setup)
 
 ## Facebook
@@ -322,44 +302,34 @@ To Log in with Facebook, use [flutter_facebook_login plugin](https://pub.dartlan
 * [Background processes](https://flutter.io/docs/development/packages-and-plugins/background-processes)
 * [Executing Dart in the Background with Flutter Plugins and Geofencing](https://medium.com/flutter-io/executing-dart-in-the-background-with-flutter-plugins-and-geofencing-2b3e40a1a124)
 
-## Testing and profiling
+## Testing and profiling, DevTools
 
 * [Testing](https://flutter.io/docs/testing)
 * [Profiling](https://flutter.io/docs/testing/ui-performance)
+* [Dart DevTools](https://flutter.github.io/devtools/)
 
 ## Flavors and deployment
 
 * [Creating flavors of a Flutter app (Flutter & Android setup)](https://cogitas.net/creating-flavors-of-a-flutter-app/)
-
 * [Flavoring Flutter](https://medium.com/@salvatoregiordanoo/flavoring-flutter-392aaa875f36)
-
 * [Preparing for release](https://flutter.io/docs/deployment/android)
-
 * [Fastlane continuous delivery](https://flutter.io/docs/deployment/fastlane-cd)
+* [App bundle](https://flutter.dev/docs/deployment/android#building-a-release-app-bundle)
 
 ## Samples and tutorials 
 
 * [Flutter samples on Github](https://github.com/flutter/samples/blob/master/INDEX.md)
-
 * [Cookbook](https://flutter.io/docs/cookbook)
-
 * [Codelabs](https://flutter.io/docs/codelabs)
-
 * [Tutorials](https://flutter.io/docs/reference/tutorials)
-
 * [Flutter on Medium](https://medium.com/flutter-io)
-
 * [Trending on Github](https://github.com/trending/dart)
-
 * [History of Everything application](https://github.com/2d-inc/HistoryOfEverything)
-
 
 ## Community 
 
 * [Reddit](https://www.reddit.com/r/FlutterDev/)
-
 * [Gitter chat room](https://gitter.im/flutter/flutter)
-
 * [Mailing list](flutter-dev@googlegroups.com)
 
 
