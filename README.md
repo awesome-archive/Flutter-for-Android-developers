@@ -73,14 +73,14 @@ The tutorial assumes that you are at least familiar with Android development and
 Basically Flutter world is split between [BLoC/Rx](https://flutter.io/docs/development/data-and-backend/state-mgmt#bloc--rx)(kind of like [MVVM](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b)) and [Redux](https://flutter.io/docs/development/data-and-backend/state-mgmt#redux).
 
 * [Official documentation about state management.](https://flutter.io/docs/development/data-and-backend/state-mgmt) 
-* [Flutter architecture samples](http://fluttersamples.com/)
+* [Flutter architecture samples](http://fluttersamples.com/)([GitHub](https://github.com/brianegan/flutter_architecture_samples))
 * [BLoC](https://github.com/felangel/bloc)
 * [scoped_model](https://github.com/brianegan/scoped_model)
+
 
 ## Dependency injection
 
 While there's no Dagger 2 in Flutter, there's [inject.dart](https://github.com/google/inject.dart).
-
 
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
@@ -325,6 +325,9 @@ To Log in with Facebook, use [flutter_facebook_login plugin](https://pub.dartlan
 * [Flutter on Medium](https://medium.com/flutter-io)
 * [Trending on Github](https://github.com/trending/dart)
 * [History of Everything application](https://github.com/2d-inc/HistoryOfEverything)
+* [Awesome Flutter](https://github.com/Solido/awesome-flutter)
+* [Flutter Notebook](https://github.com/OpenFlutter/Flutter-Notebook/blob/master/readme_english.md)
+* [Flutter Go](https://github.com/alibaba/flutter-go/blob/master/README-en.md)
 
 ## Community 
 
