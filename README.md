@@ -49,7 +49,10 @@ The tutorial assumes that you are at least familiar with Android development and
 
 ## Installing Flutter
 * [Installing Flutter SDK](https://flutter.io/docs/get-started/install)
-* [Configuring Android Studio](https://flutter.io/docs/get-started/editor)
+
+## Tools/IDE
+* ![Android Studio](studio.png)[Android Studio](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
+* ![Visual Studio Code](code.png)[Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=vscode)
 
 ## Working with an editor
 * [Android Studio/Intellij](https://flutter.io/docs/development/tools/android-studio)
@@ -69,19 +72,19 @@ The tutorial assumes that you are at least familiar with Android development and
 * [Tensor Programming](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) excellent programming videos, regularly posts Flutter tutorials
 
 ## Architecture and state management
-
-Basically Flutter world is split between [BLoC/Rx](https://flutter.io/docs/development/data-and-backend/state-mgmt#bloc--rx)(kind of like [MVVM](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b)) and [Redux](https://flutter.io/docs/development/data-and-backend/state-mgmt#redux).
-
 * [Official documentation about state management.](https://flutter.io/docs/development/data-and-backend/state-mgmt) 
 * [Flutter architecture samples](http://fluttersamples.com/)([GitHub](https://github.com/brianegan/flutter_architecture_samples))
 * [BLoC](https://github.com/felangel/bloc)
+* [BLoC/Rx](https://flutter.io/docs/development/data-and-backend/state-mgmt#bloc--rx)
+* [Redux](https://flutter.io/docs/development/data-and-backend/state-mgmt#redux)
 * [scoped_model](https://github.com/brianegan/scoped_model)
+* [MobX](https://mobx.pub/)
 
 
 ## Dependency injection
-
-While there's no Dagger 2 in Flutter, there's [inject.dart](https://github.com/google/inject.dart).
-
+* [inject.dart](https://github.com/google/inject.dart)
+* [kiwi](https://pub.dev/packages/kiwi)
+* [get_it(Service locator)](https://pub.dev/packages/get_it)
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
 
@@ -247,7 +250,6 @@ It also supports gifs!
 Unfortunately, Image.network [does not support](https://flutter.io/docs/cookbook/images/network-image#placeholders-and-caching) placeholders and/or caching. To achieve those, please see the following recipes:
 * [Fade in images with a placeholder](https://flutter.io/docs/cookbook/images/fading-in-images)
 * [Working with cached images](https://flutter.io/docs/cookbook/images/cached-images)
-
 
 ## Animations
 
