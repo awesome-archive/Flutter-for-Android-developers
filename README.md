@@ -82,9 +82,11 @@ The tutorial assumes that you are at least familiar with Android development and
 
 
 ## Dependency injection
+* [provider](https://pub.dev/packages/provider)
 * [inject.dart](https://github.com/google/inject.dart)
 * [kiwi](https://pub.dev/packages/kiwi)
 * [get_it(Service locator)](https://pub.dev/packages/get_it)
+
 ## Navigation & routing
 Flutter uses [Navigator](https://docs.flutter.io/flutter/widgets/Navigator-class.html) for navigation.
 
