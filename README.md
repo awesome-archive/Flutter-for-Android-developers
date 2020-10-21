@@ -1,3 +1,6 @@
+# ⚠️ [Deprecated] I no longer use, nor interested in Flutter. If you're looking for an up-to-date resource on Flutter goodies then check [awesome-flutter](https://github.com/Solido/awesome-flutter). Cheers. 
+
+
 <p align="center"><img src="https://raw.githubusercontent.com/m3sv/Flutter-introduction-for-Android-developers/master/android_flutter.png" width="480"></p> 
 
 # Flutter for Android developers
